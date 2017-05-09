@@ -23,6 +23,8 @@
 		DB6F37D21EC04E6900F93DE9 /* WSLayerFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37D11EC04E6900F93DE9 /* WSLayerFourViewController.m */; };
 		DB6F37D51EC0547400F93DE9 /* WSLayerFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37D41EC0547400F93DE9 /* WSLayerFiveViewController.m */; };
 		DB6F37D81EC0620C00F93DE9 /* WSLayerSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37D71EC0620C00F93DE9 /* WSLayerSixViewController.m */; };
+		DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */; };
+		DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */; };
 		DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */; };
 		DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA140481EB04E890012F2E3 /* WSOperationQueue.m */; };
 		DBAD2DD21E36ED8400F0D71E /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAD2DD11E36ED8400F0D71E /* FViewController.m */; };
@@ -70,6 +72,10 @@
 		DB6F37D41EC0547400F93DE9 /* WSLayerFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLayerFiveViewController.m; sourceTree = "<group>"; };
 		DB6F37D61EC0620C00F93DE9 /* WSLayerSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLayerSixViewController.h; sourceTree = "<group>"; };
 		DB6F37D71EC0620C00F93DE9 /* WSLayerSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLayerSixViewController.m; sourceTree = "<group>"; };
+		DB6F37D91EC1561A00F93DE9 /* WSLayerSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLayerSevenViewController.h; sourceTree = "<group>"; };
+		DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLayerSevenViewController.m; sourceTree = "<group>"; };
+		DB6F37E11EC1AFBA00F93DE9 /* WSCGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCGViewController.h; sourceTree = "<group>"; };
+		DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCGViewController.m; sourceTree = "<group>"; };
 		DB7CC6641E457A4B0021AD78 /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
 		DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		DBA140471EB04E890012F2E3 /* WSOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOperationQueue.h; sourceTree = "<group>"; };
@@ -157,6 +163,7 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DB6F37E01EC1AF9900F93DE9 /* CoreGraphics */,
 				DB6F37C21EC01A3B00F93DE9 /* CALayer */,
 				DB6F37BF1EBC61C300F93DE9 /* WSFirstViewController.h */,
 				DB6F37C01EBC61C300F93DE9 /* WSFirstViewController.m */,
@@ -189,8 +196,19 @@
 				DB6F37D41EC0547400F93DE9 /* WSLayerFiveViewController.m */,
 				DB6F37D61EC0620C00F93DE9 /* WSLayerSixViewController.h */,
 				DB6F37D71EC0620C00F93DE9 /* WSLayerSixViewController.m */,
+				DB6F37D91EC1561A00F93DE9 /* WSLayerSevenViewController.h */,
+				DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */,
 			);
 			path = SubVC;
+			sourceTree = "<group>";
+		};
+		DB6F37E01EC1AF9900F93DE9 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F37E11EC1AFBA00F93DE9 /* WSCGViewController.h */,
+				DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */,
+			);
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 		DB7CC6601E457A140021AD78 /* Category */ = {
@@ -325,8 +343,10 @@
 				DB6F37C91EC024C100F93DE9 /* WSLayerOneViewController.m in Sources */,
 				DB6F37C51EC01A5900F93DE9 /* WSLayerViewController.m in Sources */,
 				DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */,
+				DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */,
 				DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */,
 				DB69E5761E334F2700FDB4A9 /* main.m in Sources */,
+				DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */,
 				DB6F37D81EC0620C00F93DE9 /* WSLayerSixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

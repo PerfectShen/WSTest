@@ -51,7 +51,8 @@ static NSString *cellIdentifier = @"WSTestIndexLayerCell";
                              @{@"title":@"CATextLayer",@"class":@"WSLayerThreeViewController"},
                              @{@"title":@"CAShapeLayer",@"class":@"WSLayerFourViewController"},
                              @{@"title":@"CAEmitterLayer",@"class":@"WSLayerFiveViewController"},
-                             @{@"title":@"CATransformLayer",@"class":@"WSLayerSixViewController"},nil];
+                             @{@"title":@"CATransformLayer",@"class":@"WSLayerSixViewController"},
+                             @{@"title":@"CAReplicatorLayer",@"class":@"WSLayerSevenViewController"},nil];
     self.dataSource = array;
 }
 
