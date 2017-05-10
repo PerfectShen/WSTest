@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB004A571EC2BE32005BAA3F /* WSCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB004A561EC2BE32005BAA3F /* WSCIViewController.m */; };
 		DB3BEE181E374C56001DA16F /* NSException+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BEE171E374C56001DA16F /* NSException+Safety.m */; };
 		DB69E5761E334F2700FDB4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E5751E334F2700FDB4A9 /* main.m */; };
 		DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E5781E334F2700FDB4A9 /* AppDelegate.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB004A551EC2BE32005BAA3F /* WSCIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCIViewController.h; sourceTree = "<group>"; };
+		DB004A561EC2BE32005BAA3F /* WSCIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCIViewController.m; sourceTree = "<group>"; };
 		DB3BEE161E374C56001DA16F /* NSException+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+Safety.h"; sourceTree = "<group>"; };
 		DB3BEE171E374C56001DA16F /* NSException+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Safety.m"; sourceTree = "<group>"; };
 		DB69E5711E334F2700FDB4A9 /* WSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB004A541EC2BE25005BAA3F /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				DB004A551EC2BE32005BAA3F /* WSCIViewController.h */,
+				DB004A561EC2BE32005BAA3F /* WSCIViewController.m */,
+			);
+			path = CoreImage;
+			sourceTree = "<group>";
+		};
 		DB69E5681E334F2700FDB4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +175,7 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DB004A541EC2BE25005BAA3F /* CoreImage */,
 				DB6F37E01EC1AF9900F93DE9 /* CoreGraphics */,
 				DB6F37C21EC01A3B00F93DE9 /* CALayer */,
 				DB6F37BF1EBC61C300F93DE9 /* WSFirstViewController.h */,
@@ -345,6 +358,7 @@
 				DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */,
 				DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */,
 				DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */,
+				DB004A571EC2BE32005BAA3F /* WSCIViewController.m in Sources */,
 				DB69E5761E334F2700FDB4A9 /* main.m in Sources */,
 				DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */,
 				DB6F37D81EC0620C00F93DE9 /* WSLayerSixViewController.m in Sources */,

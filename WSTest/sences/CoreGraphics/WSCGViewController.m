@@ -187,6 +187,10 @@
 @end
 
 @implementation WSCGViewController
+- (void)dealloc {
+
+    NSLog(@"释放");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -199,6 +203,19 @@
     self.cgview.type = 1;
     [self.view addSubview:self.cgview];
     
+    
+//    CFDictionaryRef *dic = CGPointCreateDictionaryRepresentation(CGPointMake(10, 10));
+//    NSLog(@"%@",dic);
+    CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateDeviceRGB();
+    CGBitmapInfo bitmapInfo = kCGBitmapByteOrderDefault;
+    GLubyte *buffer = (GLubyte *) malloc(64 * 64 * 4);
+    CGDataProviderRef provider = CGDataProviderCreateWithData(NULL, buffer, (64 * 64 * 4), NULL);
+   CGColorRenderingIntent renderingIntent = kCGRenderingIntentDefault;
+    CGImageRef cimage = CGImageCreate(50, 50, 8, 32, 4 * 50, colorSpaceRef, bitmapInfo, provider, NULL, NO, renderingIntent);
+    UIImage *image = [UIImage imageWithCGImage:cimage];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    imageView.center = CGPointMake(300, 500);
+    [self.view addSubview:imageView];
     
     NSArray *array = @[@"绘制文字",@"绘制线"];
     for (NSInteger i = 0; i < array.count; i ++) {

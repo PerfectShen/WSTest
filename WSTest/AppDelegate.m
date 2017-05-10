@@ -18,6 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"%@",ABC);
+    
+    
+    NSProcessInfo *info = [[NSProcessInfo alloc] init];
+    NSOperatingSystemVersion version = info.operatingSystemVersion;
+    NSLog(@"%zd --- %zd ---- %zd",version.majorVersion,version.minorVersion,version.patchVersion);
+    
     return YES;
 }
 

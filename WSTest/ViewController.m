@@ -89,7 +89,8 @@ static NSString *cellIdentifier = @"WSTestIndexCell";
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@{@"title":@"NSString和NSMutableString",@"class":@"WSFirstViewController"},
                              @{@"title":@"线程同步",@"class":@"FViewController"},
                              @{@"title":@"CALayer",@"class":@"WSLayerViewController"},
-                             @{@"title":@"CoreGraphics",@"class":@"WSCGViewController"}, nil];
+                             @{@"title":@"CoreGraphics",@"class":@"WSCGViewController"},
+                             @{@"title":@"CoreImage",@"class":@"WSCIViewController"}, nil];
     self.dataSource = array;
 }
 
