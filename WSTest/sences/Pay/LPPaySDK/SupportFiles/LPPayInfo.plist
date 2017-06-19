@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AliPayInfo</key>
+	<dict>
+		<key>AppScheme</key>
+		<string>slf9816e6d386b6da9</string>
+		<key>partner</key>
+		<string>2088811561684277</string>
+		<key>seller_id</key>
+		<string>15669996999@163.com</string>
+		<key>notify_url</key>
+		<string>/pay/alipay/alipayRedenvelop.htm</string>
+		<key>service</key>
+		<string>mobile.securitypay.pay</string>
+		<key>payment_type</key>
+		<string>1</string>
+		<key>_input_charset</key>
+		<string>utf-8</string>
+		<key>it_b_pay</key>
+		<string>30m</string>
+		<key>show_url</key>
+		<string>m.alipay.com</string>
+	</dict>
+</dict>
+</plist>

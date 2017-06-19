@@ -11,6 +11,7 @@
 #import "FViewController.h"
 #import "AppDelegate.h"
 #import "WSFirstViewController.h"
+#import "WSArray.h"
 
 
 
@@ -42,6 +43,7 @@ static NSString *cellIdentifier = @"WSTestIndexCell";
     [self _createDataSource];
     [self.view addSubview:self.tableView];
     [self.tableView reloadData];
+    
     
     
     
@@ -90,7 +92,10 @@ static NSString *cellIdentifier = @"WSTestIndexCell";
                              @{@"title":@"线程同步",@"class":@"FViewController"},
                              @{@"title":@"CALayer",@"class":@"WSLayerViewController"},
                              @{@"title":@"CoreGraphics",@"class":@"WSCGViewController"},
-                             @{@"title":@"CoreImage",@"class":@"WSCIViewController"}, nil];
+                             @{@"title":@"CoreImage",@"class":@"WSCIViewController"},
+                             @{@"title":@"链式语法",@"class":@"WSChainViewController"},
+                             @{@"title":@"Runtime",@"class":@"RTViewController"},
+                             @{@"title":@"键盘",@"class":@"KBViewController"},nil];
     self.dataSource = array;
 }
 

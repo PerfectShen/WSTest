@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <objc/runtime.h>
 
 @interface AppDelegate ()
 
@@ -23,6 +24,13 @@
     NSProcessInfo *info = [[NSProcessInfo alloc] init];
     NSOperatingSystemVersion version = info.operatingSystemVersion;
     NSLog(@"%zd --- %zd ---- %zd",version.majorVersion,version.minorVersion,version.patchVersion);
+//    NSLog(@"%@",info.userName);
+    
+    NSScanner *scan = [[NSScanner alloc] initWithString:@"sssss"];
+    
+    NSInteger aresult;
+    [scan scanInteger:&aresult];
+    NSLog(@"%zd --- %zd",aresult,INT8_MAX);
     
     return YES;
 }

@@ -39,7 +39,7 @@
     alayer.alignmentMode = kCAAlignmentJustified;
     alayer.allowsFontSubpixelQuantization = YES;
     alayer.contentsScale = [UIScreen mainScreen].scale;
-    alayer.string = @"这是一段d文字，一段比较长ss的文d字这是一段ss文字，一段比s较长d的ss文字这是一段文s字，一段比d较长的文字";
+    alayer.string = @"这是一段d文字，一段比较,,长ss的文d字这是一段ss文字，一段比s较长d的ss文字这是一段文s字，一段比d较长的文字";
     self.textlayer = alayer;
     
     
@@ -65,7 +65,7 @@
 - (void)linkAction:(CADisplayLink *)link {
     
     NSLog(@"---%f",link.duration);
-    self.textlayer.string = [NSString stringWithFormat:@"%.0f",1/link.duration];
+//    self.textlayer.string = [NSString stringWithFormat:@"%.0f",1/link.duration];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

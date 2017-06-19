@@ -27,8 +27,18 @@
 		DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */; };
 		DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */; };
 		DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */; };
+		DB9BD2481ED7D47900380328 /* WSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BD2471ED7D47900380328 /* WSArray.m */; };
+		DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */; };
+		DB9DFA2F1EE008FD00B604D9 /* WSCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA2E1EE008FD00B604D9 /* WSCaculatorMaker.m */; };
+		DB9DFA321EE00A0D00B604D9 /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA311EE00A0D00B604D9 /* NSObject+Caculator.m */; };
 		DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA140481EB04E890012F2E3 /* WSOperationQueue.m */; };
 		DBAD2DD21E36ED8400F0D71E /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAD2DD11E36ED8400F0D71E /* FViewController.m */; };
+		DBDB6F5B1EF7B9D600E48BF7 /* LPPassWordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDB6F5A1EF7B9D600E48BF7 /* LPPassWordTextField.m */; };
+		DBFA28BD1EEE7D7400F0CE32 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA28BC1EEE7D7400F0CE32 /* RTViewController.m */; };
+		DBFA28C01EEE7D8900F0CE32 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA28BF1EEE7D8900F0CE32 /* Student.m */; };
+		DBFA28C31EEE7FDF00F0CE32 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA28C21EEE7FDF00F0CE32 /* Person.m */; };
+		DBFA29831EF3CDF700F0CE32 /* KBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA29821EF3CDF700F0CE32 /* KBViewController.m */; };
+		DBFA29871EF3CEB200F0CE32 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA29861EF3CEB200F0CE32 /* KeyBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,10 +91,30 @@
 		DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCGViewController.m; sourceTree = "<group>"; };
 		DB7CC6641E457A4B0021AD78 /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
 		DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		DB9BD2461ED7D47900380328 /* WSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSArray.h; sourceTree = "<group>"; };
+		DB9BD2471ED7D47900380328 /* WSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSArray.m; sourceTree = "<group>"; };
+		DB9DFA2A1EE0087200B604D9 /* WSChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChainViewController.h; sourceTree = "<group>"; };
+		DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChainViewController.m; sourceTree = "<group>"; };
+		DB9DFA2D1EE008FD00B604D9 /* WSCaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCaculatorMaker.h; sourceTree = "<group>"; };
+		DB9DFA2E1EE008FD00B604D9 /* WSCaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCaculatorMaker.m; sourceTree = "<group>"; };
+		DB9DFA301EE00A0D00B604D9 /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		DB9DFA311EE00A0D00B604D9 /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
 		DBA140471EB04E890012F2E3 /* WSOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOperationQueue.h; sourceTree = "<group>"; };
 		DBA140481EB04E890012F2E3 /* WSOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOperationQueue.m; sourceTree = "<group>"; };
 		DBAD2DD01E36ED8400F0D71E /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
 		DBAD2DD11E36ED8400F0D71E /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
+		DBDB6F591EF7B9D600E48BF7 /* LPPassWordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPassWordTextField.h; sourceTree = "<group>"; };
+		DBDB6F5A1EF7B9D600E48BF7 /* LPPassWordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPassWordTextField.m; sourceTree = "<group>"; };
+		DBFA28BB1EEE7D7400F0CE32 /* RTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		DBFA28BC1EEE7D7400F0CE32 /* RTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		DBFA28BE1EEE7D8900F0CE32 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		DBFA28BF1EEE7D8900F0CE32 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		DBFA28C11EEE7FDF00F0CE32 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DBFA28C21EEE7FDF00F0CE32 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DBFA29811EF3CDF700F0CE32 /* KBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBViewController.h; sourceTree = "<group>"; };
+		DBFA29821EF3CDF700F0CE32 /* KBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBViewController.m; sourceTree = "<group>"; };
+		DBFA29851EF3CEB100F0CE32 /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		DBFA29861EF3CEB200F0CE32 /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +176,8 @@
 				DBAD2DD11E36ED8400F0D71E /* FViewController.m */,
 				DB3BEE161E374C56001DA16F /* NSException+Safety.h */,
 				DB3BEE171E374C56001DA16F /* NSException+Safety.m */,
+				DB9BD2461ED7D47900380328 /* WSArray.h */,
+				DB9BD2471ED7D47900380328 /* WSArray.m */,
 				DB69E57D1E334F2800FDB4A9 /* Main.storyboard */,
 				DB69E5801E334F2800FDB4A9 /* Assets.xcassets */,
 				DB69E5821E334F2800FDB4A9 /* LaunchScreen.storyboard */,
@@ -175,6 +207,9 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DBFA29801EF3CDE100F0CE32 /* KeyBoard */,
+				DBFA28B81EEE7D5300F0CE32 /* Runtime */,
+				DB9DFA291EE0083B00B604D9 /* 链式语法 */,
 				DB004A541EC2BE25005BAA3F /* CoreImage */,
 				DB6F37E01EC1AF9900F93DE9 /* CoreGraphics */,
 				DB6F37C21EC01A3B00F93DE9 /* CALayer */,
@@ -233,6 +268,19 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		DB9DFA291EE0083B00B604D9 /* 链式语法 */ = {
+			isa = PBXGroup;
+			children = (
+				DB9DFA2A1EE0087200B604D9 /* WSChainViewController.h */,
+				DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */,
+				DB9DFA2D1EE008FD00B604D9 /* WSCaculatorMaker.h */,
+				DB9DFA2E1EE008FD00B604D9 /* WSCaculatorMaker.m */,
+				DB9DFA301EE00A0D00B604D9 /* NSObject+Caculator.h */,
+				DB9DFA311EE00A0D00B604D9 /* NSObject+Caculator.m */,
+			);
+			path = "链式语法";
+			sourceTree = "<group>";
+		};
 		DBA140461EB04B860012F2E3 /* WSOPerationQueue */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +288,56 @@
 				DBA140481EB04E890012F2E3 /* WSOperationQueue.m */,
 			);
 			path = WSOPerationQueue;
+			sourceTree = "<group>";
+		};
+		DBFA28B81EEE7D5300F0CE32 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA28BA1EEE7D6300F0CE32 /* Model */,
+				DBFA28B91EEE7D5A00F0CE32 /* Controller */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		DBFA28B91EEE7D5A00F0CE32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA28BB1EEE7D7400F0CE32 /* RTViewController.h */,
+				DBFA28BC1EEE7D7400F0CE32 /* RTViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBFA28BA1EEE7D6300F0CE32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA28BE1EEE7D8900F0CE32 /* Student.h */,
+				DBFA28BF1EEE7D8900F0CE32 /* Student.m */,
+				DBFA28C11EEE7FDF00F0CE32 /* Person.h */,
+				DBFA28C21EEE7FDF00F0CE32 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBFA29801EF3CDE100F0CE32 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA29841EF3CE9E00F0CE32 /* KeyBoardView */,
+				DBFA29811EF3CDF700F0CE32 /* KBViewController.h */,
+				DBFA29821EF3CDF700F0CE32 /* KBViewController.m */,
+				DBDB6F591EF7B9D600E48BF7 /* LPPassWordTextField.h */,
+				DBDB6F5A1EF7B9D600E48BF7 /* LPPassWordTextField.m */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		DBFA29841EF3CE9E00F0CE32 /* KeyBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA29851EF3CEB100F0CE32 /* KeyBoardView.h */,
+				DBFA29861EF3CEB200F0CE32 /* KeyBoardView.m */,
+			);
+			path = KeyBoardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,21 +443,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB69E57C1E334F2700FDB4A9 /* ViewController.m in Sources */,
+				DB9DFA2F1EE008FD00B604D9 /* WSCaculatorMaker.m in Sources */,
 				DB6F37CF1EC042B800F93DE9 /* WSLayerThreeViewController.m in Sources */,
+				DB9BD2481ED7D47900380328 /* WSArray.m in Sources */,
 				DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */,
 				DB3BEE181E374C56001DA16F /* NSException+Safety.m in Sources */,
 				DB6F37CC1EC0403300F93DE9 /* WSLayerTwoViewController.m in Sources */,
 				DB6F37C11EBC61C300F93DE9 /* WSFirstViewController.m in Sources */,
+				DB9DFA321EE00A0D00B604D9 /* NSObject+Caculator.m in Sources */,
 				DB6F37D51EC0547400F93DE9 /* WSLayerFiveViewController.m in Sources */,
+				DBFA29871EF3CEB200F0CE32 /* KeyBoardView.m in Sources */,
 				DBAD2DD21E36ED8400F0D71E /* FViewController.m in Sources */,
+				DBFA28C01EEE7D8900F0CE32 /* Student.m in Sources */,
+				DBFA28C31EEE7FDF00F0CE32 /* Person.m in Sources */,
 				DB6F37D21EC04E6900F93DE9 /* WSLayerFourViewController.m in Sources */,
+				DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */,
 				DB6F37C91EC024C100F93DE9 /* WSLayerOneViewController.m in Sources */,
 				DB6F37C51EC01A5900F93DE9 /* WSLayerViewController.m in Sources */,
 				DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */,
+				DBFA28BD1EEE7D7400F0CE32 /* RTViewController.m in Sources */,
+				DBDB6F5B1EF7B9D600E48BF7 /* LPPassWordTextField.m in Sources */,
 				DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */,
 				DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */,
 				DB004A571EC2BE32005BAA3F /* WSCIViewController.m in Sources */,
 				DB69E5761E334F2700FDB4A9 /* main.m in Sources */,
+				DBFA29831EF3CDF700F0CE32 /* KBViewController.m in Sources */,
 				DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */,
 				DB6F37D81EC0620C00F93DE9 /* WSLayerSixViewController.m in Sources */,
 			);
