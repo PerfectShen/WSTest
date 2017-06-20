@@ -63,7 +63,7 @@
         [self addTarget:self action:@selector(passwordTextChanged:) forControlEvents:UIControlEventEditingChanged];
         
         UILongPressGestureRecognizer *ges = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longGestureAction:)];
-        ges.minimumPressDuration = 0.4;
+        ges.minimumPressDuration = 0.1;
         [self addGestureRecognizer:ges];
         
 //        for (UIGestureRecognizer *ges in self.gestureRecognizers) {
