@@ -13,6 +13,10 @@
 
 #define KTextInputCount 6
 
+#define KErrorColor  [UIColor redColor]
+#define KNormalColor [UIColor colorWithRed:244/255.0 green:244/255.0 blue:244/255.0 alpha:1]
+
+
 @protocol LPPassWordTextFieldDelegate <UITextFieldDelegate>
 
 
@@ -27,5 +31,13 @@
 @end
 
 @interface LPPassWordTextField : UITextField
+
+
+/**
+ <#Description#>
+
+ @param isNormal BOOL
+ */
+- (void)changeBoardColorWithIsNormal:(BOOL )isNormal;
 
 @end

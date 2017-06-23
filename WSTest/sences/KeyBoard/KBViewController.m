@@ -28,6 +28,19 @@
     textField.keyboardAppearance = UIKeyboardAppearanceLight;
     textField.keyboardType = UIKeyboardTypeNumberPad;
     [self.view addSubview:textField];
+    
+    UILabel *alabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 200, self.view.frame.size.width, 40)];
+    alabel.font = [UIFont systemFontOfSize:12];
+    alabel.text = [NSString stringWithFormat:@"%@", [NSBundle mainBundle].infoDictionary];
+    NSLog(@"%@",[NSBundle mainBundle].infoDictionary);
+    [self.view addSubview:alabel];
+    
+    NSPointerArray *array = [[NSPointerArray alloc] initWithOptions:NSPointerFunctionsWeakMemory];
+    [array addPointer:(void *)alabel];
+    
+    NSLog(@"%@",array.allObjects);
+    
+   
 }
 
 - (void)passWordtextField:(LPPassWordTextField *)textField completeInputWithText:(NSString *)text {

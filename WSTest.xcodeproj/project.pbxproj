@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB004A571EC2BE32005BAA3F /* WSCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB004A561EC2BE32005BAA3F /* WSCIViewController.m */; };
 		DB3BEE181E374C56001DA16F /* NSException+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BEE171E374C56001DA16F /* NSException+Safety.m */; };
+		DB4459771EFCC926004DD6A6 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4459761EFCC926004DD6A6 /* RLViewController.m */; };
 		DB69E5761E334F2700FDB4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E5751E334F2700FDB4A9 /* main.m */; };
 		DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E5781E334F2700FDB4A9 /* AppDelegate.m */; };
 		DB69E57C1E334F2700FDB4A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E57B1E334F2700FDB4A9 /* ViewController.m */; };
@@ -56,6 +57,8 @@
 		DB004A561EC2BE32005BAA3F /* WSCIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCIViewController.m; sourceTree = "<group>"; };
 		DB3BEE161E374C56001DA16F /* NSException+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+Safety.h"; sourceTree = "<group>"; };
 		DB3BEE171E374C56001DA16F /* NSException+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Safety.m"; sourceTree = "<group>"; };
+		DB4459751EFCC926004DD6A6 /* RLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		DB4459761EFCC926004DD6A6 /* RLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
 		DB69E5711E334F2700FDB4A9 /* WSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB69E5751E334F2700FDB4A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB69E5771E334F2700FDB4A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +147,15 @@
 			path = CoreImage;
 			sourceTree = "<group>";
 		};
+		DB4459741EFCC90C004DD6A6 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				DB4459751EFCC926004DD6A6 /* RLViewController.h */,
+				DB4459761EFCC926004DD6A6 /* RLViewController.m */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
 		DB69E5681E334F2700FDB4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +219,7 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DB4459741EFCC90C004DD6A6 /* Runloop */,
 				DBFA29801EF3CDE100F0CE32 /* KeyBoard */,
 				DBFA28B81EEE7D5300F0CE32 /* Runtime */,
 				DB9DFA291EE0083B00B604D9 /* 链式语法 */,
@@ -462,6 +475,7 @@
 				DB6F37C51EC01A5900F93DE9 /* WSLayerViewController.m in Sources */,
 				DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */,
 				DBFA28BD1EEE7D7400F0CE32 /* RTViewController.m in Sources */,
+				DB4459771EFCC926004DD6A6 /* RLViewController.m in Sources */,
 				DBDB6F5B1EF7B9D600E48BF7 /* LPPassWordTextField.m in Sources */,
 				DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */,
 				DBA140491EB04E890012F2E3 /* WSOperationQueue.m in Sources */,
@@ -605,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -617,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

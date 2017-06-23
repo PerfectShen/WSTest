@@ -43,6 +43,7 @@
 
 @interface LPPassWordTextField ()
 
+
 @property (nonatomic, strong) NSArray *pointViewArray;
 
 @end
@@ -58,21 +59,13 @@
         self.secureTextEntry = YES;
         self.textColor = [UIColor clearColor];
         self.tintColor = [UIColor clearColor];
-        self.layer.borderColor = [UIColor colorWithRed:244/255.0 green:244/255.0 blue:244/255.0 alpha:1].CGColor;
         self.layer.borderWidth = 1.0f;
+        [self changeBoardColorWithIsNormal:YES];
         [self addTarget:self action:@selector(passwordTextChanged:) forControlEvents:UIControlEventEditingChanged];
-        
         UILongPressGestureRecognizer *ges = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longGestureAction:)];
         ges.minimumPressDuration = 0.4;
         [self addGestureRecognizer:ges];
         
-//        for (UIGestureRecognizer *ges in self.gestureRecognizers) {
-////            ges.enabled = NO;
-//            if ([NSStringFromClass([ges class]) isEqualToString:@"_UITextSelectionForceGesture"]) {
-////                ges.enabled = NO;
-////                [ges removeTarget:self action:@selector(oneFingerForcePan:)];
-//            }
-//        }
     }
     return self;
 }
@@ -132,6 +125,18 @@
 
 - (void)longGestureAction:(UILongPressGestureRecognizer *)ges {
 
+}
+
+
+
+#pragma mark - 公开方法
+- (void)changeBoardColorWithIsNormal:(BOOL )isNormal {
+
+    if (isNormal) {
+        self.layer.borderColor = KNormalColor.CGColor;
+    }else {
+        self.layer.borderColor = KErrorColor.CGColor;
+    }
 }
 
 
