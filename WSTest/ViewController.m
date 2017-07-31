@@ -96,7 +96,8 @@ static NSString *cellIdentifier = @"WSTestIndexCell";
                              @{@"title":@"链式语法",@"class":@"WSChainViewController"},
                              @{@"title":@"Runtime",@"class":@"RTViewController"},
                              @{@"title":@"键盘",@"class":@"KBViewController"},
-                             @{@"title":@"RunLoop",@"class":@"RLViewController"},nil];
+                             @{@"title":@"RunLoop",@"class":@"RLViewController"},
+                             @{@"title":@"蓝牙",@"class":@"BuletoothViewController"},nil];
     self.dataSource = array;
 }
 

@@ -27,6 +27,7 @@
 		DB6F37D81EC0620C00F93DE9 /* WSLayerSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37D71EC0620C00F93DE9 /* WSLayerSixViewController.m */; };
 		DB6F37DB1EC1561A00F93DE9 /* WSLayerSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */; };
 		DB6F37E31EC1AFBA00F93DE9 /* WSCGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */; };
+		DB778F761F2F178C0007C9E0 /* BuletoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB778F751F2F178C0007C9E0 /* BuletoothViewController.m */; };
 		DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */; };
 		DB9BD2481ED7D47900380328 /* WSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BD2471ED7D47900380328 /* WSArray.m */; };
 		DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */; };
@@ -92,6 +93,8 @@
 		DB6F37DA1EC1561A00F93DE9 /* WSLayerSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLayerSevenViewController.m; sourceTree = "<group>"; };
 		DB6F37E11EC1AFBA00F93DE9 /* WSCGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCGViewController.h; sourceTree = "<group>"; };
 		DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCGViewController.m; sourceTree = "<group>"; };
+		DB778F741F2F178C0007C9E0 /* BuletoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuletoothViewController.h; sourceTree = "<group>"; };
+		DB778F751F2F178C0007C9E0 /* BuletoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuletoothViewController.m; sourceTree = "<group>"; };
 		DB7CC6641E457A4B0021AD78 /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
 		DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		DB9BD2461ED7D47900380328 /* WSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSArray.h; sourceTree = "<group>"; };
@@ -219,6 +222,7 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DB778F6E1F2F17040007C9E0 /* Bluetooth */,
 				DB4459741EFCC90C004DD6A6 /* Runloop */,
 				DBFA29801EF3CDE100F0CE32 /* KeyBoard */,
 				DBFA28B81EEE7D5300F0CE32 /* Runtime */,
@@ -270,6 +274,31 @@
 				DB6F37E21EC1AFBA00F93DE9 /* WSCGViewController.m */,
 			);
 			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		DB778F6E1F2F17040007C9E0 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				DB778F701F2F17270007C9E0 /* core */,
+				DB778F6F1F2F171A0007C9E0 /* demo */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		DB778F6F1F2F171A0007C9E0 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				DB778F741F2F178C0007C9E0 /* BuletoothViewController.h */,
+				DB778F751F2F178C0007C9E0 /* BuletoothViewController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		DB778F701F2F17270007C9E0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 		DB7CC6601E457A140021AD78 /* Category */ = {
@@ -402,6 +431,7 @@
 				TargetAttributes = {
 					DB69E5701E334F2700FDB4A9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56Z9HUSKK9;
 						ProvisioningStyle = Automatic;
 					};
 					DB69E5891E334F2800FDB4A9 = {
@@ -468,6 +498,7 @@
 				DBFA29871EF3CEB200F0CE32 /* KeyBoardView.m in Sources */,
 				DBAD2DD21E36ED8400F0D71E /* FViewController.m in Sources */,
 				DBFA28C01EEE7D8900F0CE32 /* Student.m in Sources */,
+				DB778F761F2F178C0007C9E0 /* BuletoothViewController.m in Sources */,
 				DBFA28C31EEE7FDF00F0CE32 /* Person.m in Sources */,
 				DB6F37D21EC04E6900F93DE9 /* WSLayerFourViewController.m in Sources */,
 				DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */,
@@ -619,7 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 56Z9HUSKK9;
 				INFOPLIST_FILE = WSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -632,7 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 56Z9HUSKK9;
 				INFOPLIST_FILE = WSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
