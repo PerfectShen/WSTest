@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DB004A571EC2BE32005BAA3F /* WSCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB004A561EC2BE32005BAA3F /* WSCIViewController.m */; };
+		DB3682751F581497007FD26B /* LPRadarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3682721F581497007FD26B /* LPRadarChartView.m */; };
+		DB3682761F581497007FD26B /* LPRadarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3682741F581497007FD26B /* LPRadarManager.m */; };
 		DB3BEE181E374C56001DA16F /* NSException+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BEE171E374C56001DA16F /* NSException+Safety.m */; };
 		DB4459771EFCC926004DD6A6 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4459761EFCC926004DD6A6 /* RLViewController.m */; };
 		DB69E5761E334F2700FDB4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69E5751E334F2700FDB4A9 /* main.m */; };
@@ -30,6 +32,9 @@
 		DB778F761F2F178C0007C9E0 /* BuletoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB778F751F2F178C0007C9E0 /* BuletoothViewController.m */; };
 		DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */; };
 		DB9BD2481ED7D47900380328 /* WSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9BD2471ED7D47900380328 /* WSArray.m */; };
+		DB9C3DF61F4FE8CE00C1D601 /* MemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C3DF51F4FE8CE00C1D601 /* MemoryViewController.m */; };
+		DB9C3DF91F4FE90E00C1D601 /* MemonryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C3DF81F4FE90E00C1D601 /* MemonryModel.m */; };
+		DB9C3E021F5413F300C1D601 /* RadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C3E011F5413F300C1D601 /* RadarChartViewController.m */; };
 		DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */; };
 		DB9DFA2F1EE008FD00B604D9 /* WSCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA2E1EE008FD00B604D9 /* WSCaculatorMaker.m */; };
 		DB9DFA321EE00A0D00B604D9 /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DFA311EE00A0D00B604D9 /* NSObject+Caculator.m */; };
@@ -56,6 +61,10 @@
 /* Begin PBXFileReference section */
 		DB004A551EC2BE32005BAA3F /* WSCIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCIViewController.h; sourceTree = "<group>"; };
 		DB004A561EC2BE32005BAA3F /* WSCIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCIViewController.m; sourceTree = "<group>"; };
+		DB3682711F581497007FD26B /* LPRadarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPRadarChartView.h; sourceTree = "<group>"; };
+		DB3682721F581497007FD26B /* LPRadarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPRadarChartView.m; sourceTree = "<group>"; };
+		DB3682731F581497007FD26B /* LPRadarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPRadarManager.h; sourceTree = "<group>"; };
+		DB3682741F581497007FD26B /* LPRadarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPRadarManager.m; sourceTree = "<group>"; };
 		DB3BEE161E374C56001DA16F /* NSException+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+Safety.h"; sourceTree = "<group>"; };
 		DB3BEE171E374C56001DA16F /* NSException+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Safety.m"; sourceTree = "<group>"; };
 		DB4459751EFCC926004DD6A6 /* RLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 		DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		DB9BD2461ED7D47900380328 /* WSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSArray.h; sourceTree = "<group>"; };
 		DB9BD2471ED7D47900380328 /* WSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSArray.m; sourceTree = "<group>"; };
+		DB9C3DF41F4FE8CE00C1D601 /* MemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryViewController.h; sourceTree = "<group>"; };
+		DB9C3DF51F4FE8CE00C1D601 /* MemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryViewController.m; sourceTree = "<group>"; };
+		DB9C3DF71F4FE90E00C1D601 /* MemonryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemonryModel.h; sourceTree = "<group>"; };
+		DB9C3DF81F4FE90E00C1D601 /* MemonryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemonryModel.m; sourceTree = "<group>"; };
+		DB9C3E001F5413F300C1D601 /* RadarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarChartViewController.h; sourceTree = "<group>"; };
+		DB9C3E011F5413F300C1D601 /* RadarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarChartViewController.m; sourceTree = "<group>"; };
 		DB9DFA2A1EE0087200B604D9 /* WSChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChainViewController.h; sourceTree = "<group>"; };
 		DB9DFA2B1EE0087200B604D9 /* WSChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChainViewController.m; sourceTree = "<group>"; };
 		DB9DFA2D1EE008FD00B604D9 /* WSCaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCaculatorMaker.h; sourceTree = "<group>"; };
@@ -222,6 +237,8 @@
 		DB6F37BB1EBC619300F93DE9 /* sences */ = {
 			isa = PBXGroup;
 			children = (
+				DB9C3DFF1F5413DD00C1D601 /* LPRadarChart */,
+				DB9C3DF31F4FE89E00C1D601 /* 内存 */,
 				DB778F6E1F2F17040007C9E0 /* Bluetooth */,
 				DB4459741EFCC90C004DD6A6 /* Runloop */,
 				DBFA29801EF3CDE100F0CE32 /* KeyBoard */,
@@ -308,6 +325,30 @@
 				DB7CC6651E457A4B0021AD78 /* NSObject+Test.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		DB9C3DF31F4FE89E00C1D601 /* 内存 */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C3DF41F4FE8CE00C1D601 /* MemoryViewController.h */,
+				DB9C3DF51F4FE8CE00C1D601 /* MemoryViewController.m */,
+				DB9C3DF71F4FE90E00C1D601 /* MemonryModel.h */,
+				DB9C3DF81F4FE90E00C1D601 /* MemonryModel.m */,
+			);
+			path = "内存";
+			sourceTree = "<group>";
+		};
+		DB9C3DFF1F5413DD00C1D601 /* LPRadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				DB3682711F581497007FD26B /* LPRadarChartView.h */,
+				DB3682721F581497007FD26B /* LPRadarChartView.m */,
+				DB3682731F581497007FD26B /* LPRadarManager.h */,
+				DB3682741F581497007FD26B /* LPRadarManager.m */,
+				DB9C3E001F5413F300C1D601 /* RadarChartViewController.h */,
+				DB9C3E011F5413F300C1D601 /* RadarChartViewController.m */,
+			);
+			path = LPRadarChart;
 			sourceTree = "<group>";
 		};
 		DB9DFA291EE0083B00B604D9 /* 链式语法 */ = {
@@ -486,7 +527,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB69E57C1E334F2700FDB4A9 /* ViewController.m in Sources */,
+				DB9C3DF91F4FE90E00C1D601 /* MemonryModel.m in Sources */,
 				DB9DFA2F1EE008FD00B604D9 /* WSCaculatorMaker.m in Sources */,
+				DB9C3E021F5413F300C1D601 /* RadarChartViewController.m in Sources */,
 				DB6F37CF1EC042B800F93DE9 /* WSLayerThreeViewController.m in Sources */,
 				DB9BD2481ED7D47900380328 /* WSArray.m in Sources */,
 				DB7CC6661E457A4B0021AD78 /* NSObject+Test.m in Sources */,
@@ -501,7 +544,10 @@
 				DB778F761F2F178C0007C9E0 /* BuletoothViewController.m in Sources */,
 				DBFA28C31EEE7FDF00F0CE32 /* Person.m in Sources */,
 				DB6F37D21EC04E6900F93DE9 /* WSLayerFourViewController.m in Sources */,
+				DB3682761F581497007FD26B /* LPRadarManager.m in Sources */,
 				DB9DFA2C1EE0087200B604D9 /* WSChainViewController.m in Sources */,
+				DB9C3DF61F4FE8CE00C1D601 /* MemoryViewController.m in Sources */,
+				DB3682751F581497007FD26B /* LPRadarChartView.m in Sources */,
 				DB6F37C91EC024C100F93DE9 /* WSLayerOneViewController.m in Sources */,
 				DB6F37C51EC01A5900F93DE9 /* WSLayerViewController.m in Sources */,
 				DB69E5791E334F2700FDB4A9 /* AppDelegate.m in Sources */,
